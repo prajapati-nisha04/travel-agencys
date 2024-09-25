@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/468503936/photo/mayan-pyramid-in-chichen-itza-mexico.jpg?s=612x612&w=0&k=20&c=VT_jbUpf72xfu12njrCmdraT_e12PFDJ-mevbbQPzgc=);
+    /* background-image: url(https://i.pinimg.com/474x/78/e3/7f/78e37fb4d890e6167a5a7a305d78758b.jpg); */
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/073/218/non_2x/statue-of-budha-against-sunset-free-vector.jpg); */
+    /* background-image: url(https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297180.jpg); */
+    background-position:center ;
+    background-size: cover;
+    /* opacity: 0.7; */ */
+}
+
+
+
+.nav{
+    display: flex;
+    margin-left: 50%;
+    gap: 50px;
+    font-size: 22px;
+    list-style: none;
+    position: absolute;
+    /* text-decoration: none; */
+}
+
+#name{
+    
+}
+
+/* .name h3{
+    margin-left: 60px;
+    
+    font-size: 50px;
+} */
+
+.name h1{
+    color: rgb(8, 6, 6);
+   margin-left: 100px;
+    padding-top: 10%;
+    font-size: 60px;
+}
+
+.name h2{
+    font-size: 40px;
+    margin-left:100px ;
+}
+
+.name p{
+    margin-left: 100px;
+
+}
+.name button{
+     /* padding: 15px 35px; */ */
+    font-size: 50px;
+     border-radius: 5px; */
+    border: none;
+    background-color: rgb(167, 186, 250);
+    margin-right: 10px;
+    padding: 10px 20px; */
+     border-radius: 5px;
+    margin-left: 40%;
+    /* color: black; */
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #f6f6ff;
+}
+
+
+
+.container{
+    width: 90%;
+padding: 20px;
+margin: 100px auto;
+display: flex;
+justify-content: center;
+/* / fl.containerex-direction: row; */ */
+}
+
+
+.box{
+    /* width: 250px; */
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, -1);
+    transition: 1s;
+}
+
+.box img{
+
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+
+
+
